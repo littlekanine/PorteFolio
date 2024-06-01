@@ -17,3 +17,11 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}

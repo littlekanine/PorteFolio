@@ -10,8 +10,8 @@
     <meta name="description" content="[Your name here] | Developer" />
 
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
     <script
@@ -19,6 +19,7 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="./scripts/loadProjects.js"></script>
   </head>
 
   <body>
@@ -79,53 +80,35 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <h2 class="section-title about load-hidden">About me</h2>
               <p class="about-wrapper__info-text">
                 Former bartender, I chose to reorient myself after seven years of service.<br> I want to create, improve, undertake.
               </p>
               <p class="about-wrapper__info-text">
                 Curiosity brings knowledge
               </p>
-              <a rel="noreferrer" href="https://www.linkedin.com/in/elia-kopff-16064b228/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=fr" target="_blank">
-                <i class="fa fa-linkedin fa-inverse"></i>
-              </a>
-              <a rel="noreferrer" href="https://github.com/littlekanine">
-                <i class="fa-brands fa-github"></i>
-              </a>
+                <div class="social-links">
+                  <a rel="" href="https://www.linkedin.com/in/elia-kopff-16064b228/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=fr" target="_blank">
+                    <i class="fab fa-linkedin fa-inverse icon"></i>
+                  </a>
+                  <a rel="" href="https://github.com/littlekanine">
+                    <i class="fab fa-brands fa-github icon"></i>
+                  </a>
+                  <a rel="" href="https://x.com/K_D3828">
+                    <i class="fab fa-brands fa-x-twitter icon"></i>
+                  </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- /END About Section -->
-    <section id="porjects">
       <section id="projects">
         <div class="container">
           <div class="project-wrapper">
             <h2 class="section-title dark-blue-text">Projects</h2>
       <div class="wrapper">
-        <div class="items">
-          <div
-            class="item"
-            tabindex="0"
-            style="background-image: url(assets/mwa.jpg);"
-
-          ></div>
-          <div
-            class="item"
-            tabindex="0"
-            style="background-image: url(assets/profile.jpg)"
-          ></div>
-          <div
-            class="item"
-            tabindex="0"
-            style="background-image: url(assets/profile.jpg)"
-          ></div>
-          <div
-            class="item"
-            tabindex="0"
-            style="background-image: url(assets/profile.jpg)"
-          ></div>
+        <div class="items" id="project-items">
         </div>
       </div>
     </section>
@@ -151,29 +134,13 @@
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+          <a rel="noreferrer" href="https://github.com/littlekanine" target="_blank"
             >Elia Kopff</a
           >
         </p>
+        <p class="footer__text">2024</p>
     </footer>
     <!-- /END Footer Section -->
 
